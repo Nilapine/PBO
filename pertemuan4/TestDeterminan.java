@@ -1,4 +1,4 @@
-public class TestDeterminan{
+7public class TestDeterminan{
 	public static void main(String[] a) {
 		Determinan dtm=new Determinan();
 		dtm.inputData();
