@@ -18,7 +18,6 @@ public class Penjualan {
     // Method untuk menghitung total pembelian
     public float getTotalPembelian() {
         return harga * jumlah;
-        //System.out.println("Total harga : " + total);
     }
 
     // Method untuk menentukan bonus
@@ -35,14 +34,17 @@ public class Penjualan {
 
         return bonus;
     }
+    
 
     // Method untuk mencetak nota
     void cetakNota() {
-        System.out.println("Kode Barang: " + kode);
-        System.out.println("Nama Barang: " + nama);
-        System.out.println("Harga Satuan: " + harga);
-        System.out.println("Jumlah: " + jumlah);
-        System.out.println("Total Pembelian: " + getTotalPembelian());
-        System.out.println("Bonus: " + getBonus());
+        System.out.println("================================");
+        System.out.println("Kode Barang \t: " + kode);
+        System.out.println("Nama Barang \t: " + nama);
+        System.out.println("Harga Satuan \t: " + harga);
+        System.out.println("Jumlah \t\t: " + jumlah);
+        System.out.println("Total Pembelian : " + getTotalPembelian());
+        System.out.println("Bonus \t\t: " + getBonus());
+        System.out.println("================================");
     }
 }
