@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.io.*;
 public class TestNilai{
  
-	public static void main (String[] a){
+	public static void main (String[] args){
 		String jawab="";
 		Scanner input = new Scanner(System.in);
 		Nilai nilaiku=new Nilai();
