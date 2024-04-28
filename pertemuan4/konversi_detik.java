@@ -13,6 +13,8 @@ public class konversi_detik {
     public konversi_detik(){}
 
     void inputDetik(){
+        System.out.print("PROGRAM KONVERSI DETIK\n");
+        System.out.print("======================\n");
         System.out.print("Masukkan detik	: "); detik = key.nextInt();
     }
 
@@ -32,6 +34,4 @@ public class konversi_detik {
         hasil = ((detik%86400)%3600)%60;
         System.out.println("Detik	: " + hasil); 
     }
-
-
 }
