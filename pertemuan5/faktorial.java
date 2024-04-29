@@ -10,10 +10,5 @@ public class faktorial{
 			fak=fak*i;
 			System.out.println(fak);
 		}
-		
-		for (int i=1; i<=bil; i++){
-			System.out.print(i + " ");
-			if(i%5==0) println("dipecah : ");
-		}
 	}
 }
