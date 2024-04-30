@@ -1,4 +1,3 @@
-
 public class Mobil2BMW extends Mobil2 {
     void nontonTV() {
         System.out.println("TV dihidupkan");

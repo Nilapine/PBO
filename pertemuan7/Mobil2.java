@@ -17,14 +17,14 @@ public class Mobil2 {
 	}
 
 	void hidupkanMobil() {
-		System.out.println("Hidupkan Mobil : " + nama);
+		System.out.println("Hidupkan Mobil \t: "+nama);
 	}
 
 	void matikanMobil() {
-		System.out.println("Matikan Mobil : " + nama);
+		System.out.println("Matikan Mobil \t: " + nama);
 	}
 
 	void ubahGigi() {
-		System.out.println("Ubah Gigi : " + nama);
+		System.out.println("Ubah Gigi \t: " + nama);
 	}
 }

@@ -16,7 +16,7 @@ public class KaryawanDemo {
             System.out.println("Gaji Diterima   : " + df.format(tetap.totalGaji()));
         } else {
             kontrak.inputKontrak();
-            System.err.println("Upah Diterima : " + df.format(kontrak.totalUpah()));
+            System.err.println("Upah Diterima \t: " + df.format(kontrak.totalUpah()));
         }
     }
 }

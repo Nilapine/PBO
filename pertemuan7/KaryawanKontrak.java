@@ -7,12 +7,12 @@ public class KaryawanKontrak extends Karyawan {
     void inputKontrak() throws IOException {
         BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
 
-        System.out.println("--Karyawan Tetap--");
+        System.out.println("----Karyawan Kontrak----");
         System.out.println("Upah harian \t: ");
         upah_harian = Double.parseDouble(keyboard.readLine());
         System.out.print("Jumlah Masuk \t: ");
         hari_masuk = Integer.parseInt(keyboard.readLine());
-        System.out.print("Jumlah Anak : ");
+        System.out.print("Jumlah Anak \t: ");
         jml_anak = Integer.parseInt(keyboard.readLine());
     }
 
