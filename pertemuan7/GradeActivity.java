@@ -1,8 +1,8 @@
 public class GradeActivity {
     private double score;
-    privat String name;
+    private String name;
 
-    public GradeActivity(){
+    public GradeActivity(){}
 
     public GradeActivity(String n) {
         name = n;
@@ -22,4 +22,4 @@ public class GradeActivity {
         else
             return 'E';
     }
-}}
+}
