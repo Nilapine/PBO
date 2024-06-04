@@ -9,5 +9,5 @@ package pbo;
  * @author D2A
  */
 public interface Discountable {
-    
+    public void discount(int harga);
 }

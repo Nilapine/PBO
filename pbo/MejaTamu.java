@@ -15,11 +15,11 @@ public class MejaTamu extends Meja implements Discountable{
         diskon=0.1f*harga;
     }
     void cetak(){
-        System.out.println("Harga   : "+harga);
-        System.out.println("Bahan   : "+bahan);
-        System.out.println("Jumlah Kaki :"+jmlKaki);
-        System.out.println("Kaca    :"+bentukKaca);
-        System.out.println("Diskon  : "+diskon);
-        System.out.println("Bayar   : "+(harga-diskon));
+        System.out.println("Harga       : "+harga);
+        System.out.println("Bahan       : "+bahan);
+        System.out.println("Jumlah Kaki : "+jmlKaki);
+        System.out.println("Kaca        : "+bentukKaca);
+        System.out.println("Diskon      : "+diskon);
+        System.out.println("Bayar       : "+(harga-diskon));
     }
 }
